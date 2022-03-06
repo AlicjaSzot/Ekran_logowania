@@ -1,1 +1,1 @@
-sadfghjj
+nowy plik readme
