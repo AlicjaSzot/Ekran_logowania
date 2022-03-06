@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Login</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+
+<body>
+  
+  <div class="container">
+    
+      <div class="welcome__container vertical-height" >
+        <h1 class="welcome__header">Welcome Back</h1>
+        <p class="welcome__text">Create Account</p>
+      </div>
+      <div class="sign-in__container vertical-height">
+        <form id="submit">
+          <h1 class="sign-in__header">Sign In!</h1>
+          <div class="sign-in__inputs-container">
+            <label class="text-email" for="email">
+              <b>E-mail:</b>
+              <span class="email-error"></span>
+            </label>
+            <input placeholder="Wpisz email" id="email" class="sign-in__input-email input" type="email">
+            <label class="text-password" for="password"><b>Password:</b></label>
+            <input placeholder="Wpisz hasło" id="password" class="sign-in__input-password input" type="password">
+          </div>
+          <button type="submit" id="button_submit" class="sign-in__button" type="button">Sign In!</button>
+        </form>
+      </div>
+    
+  </div>
+
+
+
+
+</body>
+
+</html>
